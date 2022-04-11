@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		343055D42801C1FA0038DBC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343055D22801C1FA0038DBC9 /* Main.storyboard */; };
 		343055D62801C2000038DBC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 343055D52801C2000038DBC9 /* Assets.xcassets */; };
 		343055D92801C2000038DBC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343055D72801C2000038DBC9 /* LaunchScreen.storyboard */; };
+		3451E1F3280403520002776A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3451E1F2280403520002776A /* SecondViewController.swift */; };
 		FC648CE6FB769EB3901A5672 /* Pods_SnapTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A179A77A6DF21A9CD15C4DF2 /* Pods_SnapTask.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		343055D52801C2000038DBC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		343055D82801C2000038DBC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		343055DA2801C2000038DBC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3451E1F2280403520002776A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5D0833C30257C0EE9BB2FA07 /* Pods-SnapTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapTask.release.xcconfig"; path = "Target Support Files/Pods-SnapTask/Pods-SnapTask.release.xcconfig"; sourceTree = "<group>"; };
 		A179A77A6DF21A9CD15C4DF2 /* Pods_SnapTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -70,6 +72,7 @@
 				343055D52801C2000038DBC9 /* Assets.xcassets */,
 				343055D72801C2000038DBC9 /* LaunchScreen.storyboard */,
 				343055DA2801C2000038DBC9 /* Info.plist */,
+				3451E1F2280403520002776A /* SecondViewController.swift */,
 			);
 			path = SnapTask;
 			sourceTree = "<group>";
@@ -88,7 +91,6 @@
 				271E872B6CF9B4D34A81169C /* Pods-SnapTask.debug.xcconfig */,
 				5D0833C30257C0EE9BB2FA07 /* Pods-SnapTask.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -206,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3451E1F3280403520002776A /* SecondViewController.swift in Sources */,
 				343055D12801C1FA0038DBC9 /* ViewController.swift in Sources */,
 				343055CD2801C1FA0038DBC9 /* AppDelegate.swift in Sources */,
 				343055CF2801C1FA0038DBC9 /* SceneDelegate.swift in Sources */,
