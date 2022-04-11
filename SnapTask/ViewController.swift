@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        view.backgroundColor = .white
+        view.backgroundColor = .systemPink
         view.addSubview(greenView)
         view.addSubview(redView)
         view.addSubview(blueView)
